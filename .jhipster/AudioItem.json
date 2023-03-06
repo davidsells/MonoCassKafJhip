@@ -1,0 +1,58 @@
+{
+  "applications": "*",
+  "changelogDate": "20230306203109",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "audio_item",
+  "fields": [
+    {
+      "fieldName": "slug",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "transaction",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateofadd",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "link",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AudioItem",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "category",
+      "relationshipName": "category",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

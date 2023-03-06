@@ -1,0 +1,21 @@
+ entity AudioItem {
+     slug String
+     transaction String
+     itemDescription String
+     categoryName String
+     price String
+     location String
+     dateofadd String
+     link String
+     image String
+ }
+
+ entity Category {
+     name String
+ }
+
+
+ relationship ManyToOne {
+    AudioItem{category} to Category
+ }
+
