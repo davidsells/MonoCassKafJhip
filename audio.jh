@@ -20,4 +20,3 @@
  }
 
  service AudioItem, Category with serviceClass
- paginate AudioItem, Category with pagination
